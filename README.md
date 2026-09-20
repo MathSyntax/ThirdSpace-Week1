@@ -24,14 +24,6 @@ To start playing:
 Click anywhere after game over to play again. Press **F** (or F11) for full screen.
 
 
-## TO-DO :clipboard:
-- [x] Add sounds
-- [x] Fix bugs
-- [x] Restart after game over
-- [ ] Add modes
-- [ ] Mobile friendly
-
-
 ## ABOUT p5js :speech_balloon:
 
 ### Basic sketch
@@ -64,8 +56,4 @@ Click anywhere after game over to play again. Press **F** (or F11) for full scre
 
 ## REFERENCES :books:
 [p5js Documentation](https://p5js.org/): A complete guide on how to use the **p5js** library.
-
-
-## CONTRIBUTE :shipit:
-Issues, PRs, and all your suggestions and discussions are very welcome!
 
