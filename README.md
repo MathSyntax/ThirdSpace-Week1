@@ -12,7 +12,7 @@ To start playing:
     
     **or**
 
-  - Visit the link: [https://mathsyntax.github.io/ThirdSpace-team-collaboration/](https://mathsyntax.github.io/ThirdSpace-team-collaboration/)
+  - Visit the link: [https://mathsyntax.github.io/ThirdSpace-Week1/](https://mathsyntax.github.io/ThirdSpace-Week1/)
 
 
 ## HOW TO PLAY? :interrobang:
