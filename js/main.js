@@ -14,7 +14,7 @@ var missMarkers = [];
 var fruitsList = ['apple', 'banana', 'peach', 'strawberry', 'watermelon', 'boom'];
 var fruitsImgs = [], slicedFruitsImgs = [];
 var livesImgs = [], livesImgs2 = [];
-var boom, spliced, missed, over; // sounds
+var boom, spliced, missed; // sounds
 var bg, foregroundImg, fruitLogo, ninjaLogo, scoreImg, newGameImg, fruitImg, gameOverImg; // images
 // var button, startButton;
 // var timer;
@@ -28,7 +28,6 @@ function preload(){
     boom = loadSound('sounds/boom.mp3');
     spliced = loadSound('sounds/splatter.mp3');
     missed = loadSound('sounds/missed.mp3');
-    over = loadSound('sounds/over.mp3');
 
     // LOAD IMAGES
     for(var i=0; i<fruitsList.length-1; i++){
@@ -116,7 +115,6 @@ function startGame(){ // Reset everything and start
     score = 0;
     points = 0;
     lives = 3;
-    start.play();
     state = 'playing';
 }
 
@@ -217,7 +215,6 @@ function gameOver(){
     }
     state = 'over';
     overAt = millis();
-    over.play();
     lives = 0;
     console.log("lost");
 }
