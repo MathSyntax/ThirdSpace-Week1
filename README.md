@@ -12,12 +12,7 @@ To start playing:
     
     **or**
 
-  - Visit the link: [https://verma-anushka.github.io/Fruit-Ninja/](https://verma-anushka.github.io/Fruit-Ninja/)
-
-    **or**
-  
-  - You can also find **Fruit Ninja** and many more cool games at the link: 
-    [https://verma-anushka.github.io/Gaming-Zone/](https://verma-anushka.github.io/Gaming-Zone/)
+  - Visit the link: [https://mathsyntax.github.io/ThirdSpace-team-collaboration/](https://mathsyntax.github.io/ThirdSpace-team-collaboration/)
 
 
 ## HOW TO PLAY? :interrobang:
