@@ -1,5 +1,5 @@
 # FRUIT NINJA :kiwi_fruit:
-**Fruit Ninja** - the most popular fruit-slicing game in the world! This game is built completely using the **p5js** JavaScript library.
+**Fruit Ninja** the most popular fruit-slicing game in the world! This game is built completely using the **p5js** JavaScript library.
 
 
 ## GETTING STARTED :pencil:
