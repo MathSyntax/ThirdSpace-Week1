@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fruit Ninja</title>
+
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            text-align: center;
+            background: url("images/background.jpg") no-repeat center center;
+            background-size: cover;
+        }
+
+        canvas {
+            flex: none;
+            margin: auto;
+            width: min(100vw, calc(100vh * 800 / 635)) !important;
+            height: auto !important;
+            touch-action: none;
+        }
+        #serve-warning {
+            max-width: 560px;
+            margin: 40px auto;
+            padding: 16px 20px;
+            background: rgba(0, 0, 0, 0.65);
+            color: #fff;
+            font: 18px/1.5 sans-serif;
+            border-radius: 8px;
+        }
+    </style>
+
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div id="serve-warning" hidden>
+        <p>The game's sounds can't load when this page is opened straight from a file.</p>
+        <p>Run <code>python3 -m http.server</code> in this folder, then open <code>http://localhost:8000</code>.</p>
+    </div>
+    <script>
+        // Sounds don't load from a file, so the canvas never shows up
+        if (location.protocol === 'file:') {
+            setTimeout(function () {
+                if (!document.querySelector('canvas')) {
+                    document.getElementById('serve-warning').hidden = false;
+                }
+            }, 2000);
+        }
+    </script>
+
+    <!-- p5js library -->
+    <script src="p5/p5.js"></script>
+    <script src="p5/addons/p5.dom.js"></script>
+    <script src="p5/addons/p5.sound.js"></script>
+
+    <!-- javascript library-->
+    <script src="js/main.js"></script>
+    <script src="js/swords.js"></script>
+    <script src="js/fruit.js"></script>
+</body>
+</html>
